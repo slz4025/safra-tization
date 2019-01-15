@@ -17,8 +17,8 @@ The input file should be a Buchi (non-deterministic) automata with an ".aut" ext
 The general format of the input is:
 ```
 BUECHI
-# Rabin size: <n', number of nodes in expected output Rabin automata>
-# Rabin transitions: <|delta|, size of expected output Rabin transition function>
+# Rabin size: <CAN BE BLANK, n', number of nodes in expected output Rabin automata>
+# Rabin transitions: <CAN BE BLANK, |delta|, size of expected output Rabin transition function>
 # Number of states
 <n, number of nodes in input Buchi automata, where nodes are indexed from 1-n>
 # Alphabet size
